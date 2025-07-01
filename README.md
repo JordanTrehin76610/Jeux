@@ -1,6 +1,6 @@
 # Tous les jeux
 ## Shifumi
-####Combattez face à l'ia dans un pierre, feuille, ciseaux.  
+Combattez face à l'ia dans un pierre, feuille, ciseaux.  
 10 succès à découvrir ! 
 
 ## Pendu
