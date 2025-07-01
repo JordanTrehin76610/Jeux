@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Knewave&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mogra&display=swap');
+
+
+
+.github {
+    width: 5rem;
+}
+
+.jeux {
+    width: 10rem;
+}
+
+.barre {
+    text-decoration: line-through;
+}
+
+body {
+    background-color: rgb(179, 101, 179);
+      font-family: "Mogra", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+footer {
+    background-color: rgb(45, 189, 45);
+    border-top: solid 1px black;
+}
+
+.bienvenue {
+    color: yellow;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: rgb(67, 67, 243);
+    font-family: "Knewave", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 5rem;
+}
+
+.shifumi {
+    box-shadow: 3px 4px 0px 0px #8a2a21;
+    background: linear-gradient(to bottom, #c62d1f 5%, #f24437 100%);
+    background-color: #c62d1f;
+    border-radius: 18px;
+    border: 1px solid #d02718;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 17px;
+    padding: 7px 25px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #810e05;
+}
+
+.shifumi:hover {
+    background: linear-gradient(to bottom, #f24437 5%, #c62d1f 100%);
+    background-color: #f24437;
+}
+
+.shifumi:active {
+    position: relative;
+    top: 1px;
+}
+
+.pendu {
+    box-shadow: 3px 4px 0px 0px #172ad49f;
+    background: linear-gradient(to bottom, #1627c4 5%, #1424b8 100%);
+    background-color: #172ad4;
+    border-radius: 18px;
+    border: 1px solid #192de4;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 17px;
+    padding: 7px 25px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #1220a1;
+}
+
+.pendu:hover {
+    background: linear-gradient(to bottom, #172ad4 5%, #1425b9 100%);
+    background-color: #192de4;
+}
+
+.pendu:active {
+    position: relative;
+    top: 1px;
+}
+
+@media screen and (max-width: 425px) {
+    .bienvenue {
+    color: yellow;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: rgb(67, 67, 243);
+    font-family: "Knewave", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3rem;
+}
+}

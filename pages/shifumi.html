@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shi-fu-mi</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="../assets/shifumi/assets/css/style.css">
+</head>
+
+
+
+<body id="body" style="color:black;background-color: #ffffff;">
+    <audio id="tambour">
+        <source src="../assets/shifumi/assets/audio/tambour.mp3" type="audio/mp3">
+    </audio>
+    <audio id="solution">
+        <source src="../assets/shifumi/assets/audio/solution.mp3" type="audio/mp3">
+    </audio>
+    <audio id="success">
+        <source src="../assets/shifumi/assets/audio/sucess.mp3" type="audio/mp3">
+    </audio>
+
+
+
+    <div class="container text-start mx-0">
+        <div class="row">
+            <div class="col-2 mt-4">
+                <p id="secret">Succès: 0/10</p>
+            </div>
+            <div class="col-10 text-end text-lg-start">
+                <a href="../index.html"><button type="button"
+                        class="btn btn-danger abandon mt-3 mx-lg-4 mx-0 ordi">Retour à
+                        l'accueil</button></a>
+                <a href="../index.html"><button type="button" class="btn btn-danger abandon mt-3 mx-lg-4 mx-0 tel"><i
+                            class="bi bi-arrow-left"></i></button></a>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="text-center my-lg-5 my-2">
+        <h1 class="d-none d-lg-block">Bienvenue dans le SHI-FU-MI</h1>
+        <p class="h1 d-lg-none">Bienvenue dans le</p>
+        <p class="h1 d-lg-none">SHI-FU-MI</p>
+        <p id="nbvictoire">Nombre de victoire: 0</p>
+        <p id="scoreboard">Meilleur score: 0</p>
+        <p id="vOuD" class="h1">Victoire ou défaite ?</p>
+    </div>
+
+    <div class="container text-center mt-lg-5 mt-2">
+        <div class="row my-lg-5 my-3">
+            <div class="col">
+                <img src="../assets/shifumi/assets/img/mystere.png" alt="Choix de l'adversaire" class="adversaire"
+                    id="adversaire">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4">
+                <img src="../assets/shifumi/assets/img/Pierre.png" alt="La pierre" class="choix" onclick="choix(0)"
+                    id="pierre">
+            </div>
+            <div class="col-lg-4">
+                <img src="../assets/shifumi/assets/img/Feuille.png" alt="La feuille" class="choix" onclick="choix(1)"
+                    id="papier">
+            </div>
+            <div class="col-lg-4">
+                <img src="../assets/shifumi/assets/img/Ciseaux.png" alt="Le ciseaux" class="choix" onclick="choix(2)"
+                    id="ciseaux">
+            </div>
+        </div>
+    </div>
+
+
+    <div class="nuitJour">
+        <button onclick="Nuit()" class="nuit"><i class="bi bi-moon-fill"></i></button><button onclick="Jour()"
+            class="jour"><i class="bi bi-brightness-high-fill"></i></button>
+    </div>
+
+    <div id="win3">Débutant <br> Gagner 3 fois de suite</div>
+    <div id="win5">Chaud bouillant<br> Gagner 5 fois de suite</div>
+    <div id="win10">Mentaliste<br> Gagner 10 fois de suite</div>
+    <div id="play1">Virgin<br> Jouer pour la 1ère fois</div>
+    <div id="play2">On remet ça ?<br> Jouer pour la 2ème fois</div>
+    <div id="play3">Fidélité<br> Jouer pour la 3ème fois</div>
+    <div id="pierre5">Comme un golem<br> Jouer la pierre 5 fois de suite</div>
+    <div id="papier5">Noyé car papier<br> Jouer le papier 5 fois de suite</div>
+    <div id="ciseaux5">Presque sixeaux<br> Jouer le ciseaux 5 fois de suite</div>
+    <div id="puit">Tricheur !<br> Secret débloquer</div>
+
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="../assets/shifumi/assets/js/script.js"></script>
+</body>
+
+
+</html>
