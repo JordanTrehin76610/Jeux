@@ -5,4 +5,4 @@ Combattez face à l'ia dans un pierre, feuille, ciseaux.
 
 ## Pendu
 Un total de 350 mots !  
-Amusez-vous face au pendu (secret inadapté au enfant, attention !)
+Amusez-vous face au pendu (__secret inadapté au enfant, attention !__)
